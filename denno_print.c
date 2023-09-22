@@ -10,6 +10,6 @@
  * Return: None.
  */
 
-void denno_print(const char *habari) {
+void denno_print(const char *habari, ...) {
     write(STDOUT_FILENO, habari, strlen(habari));
 }
